@@ -179,37 +179,6 @@ This project demonstrates that machine learning can identify *when* to rotate be
 
 ---
 
-## 🗂️ Project Structure
-
-```
-etf-rotation-strategy/
-├── data/               # Raw and processed ETF data
-├── notebooks/          # EDA and model development notebooks
-├── src/
-│   ├── features.py     # Feature engineering pipeline
-│   ├── model.py        # XGBoost training and evaluation
-│   └── strategy.py     # Signal generation and backtesting
-├── results/            # Performance plots and metrics
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 🛠️ Installation & Usage
-
-```bash
-# Clone the repository
-git clone https://github.com/poojasukhdeve/etf-rotation-strategy.git
-cd etf-rotation-strategy
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the strategy
-python src/strategy.py
-```
-
 **Requirements:**
 ```
 yfinance
@@ -227,5 +196,3 @@ matplotlib
 **Pooja Sukhdeve**
 Master's in Computer Science — Boston University
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg)](https://linkedin.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black.svg)](https://github.com)
